@@ -1,0 +1,18 @@
+.header-wrapper {
+  display: flex;
+}
+
+.menu-tab {
+  height: 50px;
+  line-height: 50px;
+  flex: 0 0 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-right: 1px solid black;
+}
+
+.menu-tab:hover {
+  background-color: grey;
+}
